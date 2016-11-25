@@ -1,0 +1,23 @@
+{
+  "name": "generator-blinx",
+  "version": "0.1.0",
+  "description": "Blinx application and module generator.",
+  "files": [
+    "app",
+    "router"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blinxjs/generator-blinx.git"
+  },
+  "dependencies": {
+    "ejs": "2.5.2",
+    "fs-extra": "1.0.0",
+    "git-clone": "0.1.0",
+    "js-beautify": "1.6.4",
+    "yeoman-generator": "0.24.1"
+  }
+}

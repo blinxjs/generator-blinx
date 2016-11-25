@@ -1,0 +1,17 @@
+<%if(requireConfig){%>import config from "./config";<%}%>
+<%if(requireTemplate){%>import moduleTemplate from "./template.html";<%}%>
+
+<%if(requireStylesheet){%>import "./style.css";<%}%>
+
+function resolveRenderOn() {
+}
+<%if(!requireRenderFn){%>
+function render() {
+}
+<%}%>
+function onRenderComplete() {
+}
+
+export default {
+    <%if(requireTemplate){%>template: moduleTemplate,<%}%> <%if(requireConfig){%>config,<%}%> resolveRenderOn, <%if(!requireRenderFn){%>render,<%}%> onRenderComplete
+}
