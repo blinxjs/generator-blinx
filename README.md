@@ -15,12 +15,12 @@ yo blinx:module
 ## How to do generated Blinx application
 To transpile the code use command
 ```
-  node run dev
+  npm run dev
 ```
 
 To keep transpilation process running in watch mode, use command
 ```
-  node run dev:watch
+  npm run dev:watch
 ```
 
 To start application
